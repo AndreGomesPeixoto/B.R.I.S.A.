@@ -26,4 +26,4 @@ Para compilar o projeto, você precisará das seguintes bibliotecas na sua IDE A
 ## 🔧 Instalação e Uso
 1. Clone este repositório:
    ```bash
-   git clone [https://github.com/AndreGomesPeixoto/B.R.I.S.A..git](https://github.com/AndreGomesPeixoto/B.R.I.S.A..git)
+   git clone https://github.com/AndreGomesPeixoto/B.R.I.S.A..git
