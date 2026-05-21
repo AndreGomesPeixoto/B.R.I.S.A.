@@ -12,7 +12,7 @@ Adafruit_SSD1306 display(LARGURA_TELA, ALTURA_TELA, &Wire, PINO_RESET);
 const int pinoSensor = A0;    // Pino analógico do sensor de ar
 const int pinoVentilador = 8; // Pino digital do ventilador
 
-// Limite aceitável de impureza (lembre-se de calibrar)
+// Limite aceitável de impureza (calibrar depois)
 const int limiteImpureza = 400; 
 
 void setup() {
@@ -21,7 +21,7 @@ void setup() {
   Serial.begin(9600);
   digitalWrite(pinoVentilador, LOW); 
 
-  // Inicializa o display OLED (o endereço 0x3C é o padrão para a maioria dessas telas)
+  // Inicializa o display OLED
   if(!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
     Serial.println(F("Falha ao iniciar o display SSD1306"));
     for(;;); // Trava o código aqui se a tela não iniciar
@@ -49,7 +49,7 @@ void loop() {
     digitalWrite(pinoVentilador, HIGH); // Liga o ventilador
     
     // Mostra alerta na tela
-    display.setTextSize(2); // Texto maior para chamar atenção
+    display.setTextSize(2);
     display.println(F("  ALERTA!"));
     display.setTextSize(1);
     display.println(F(""));
