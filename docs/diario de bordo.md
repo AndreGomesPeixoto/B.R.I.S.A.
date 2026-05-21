@@ -25,3 +25,10 @@ Aqui ficam anotadas as decisões, testes, dificuldades e avanços ao longo do pr
 - **Atividade realizada:** Inclusão da lista dos materiais específicos utilizados no projeto e inclusão de novos desenvolvedores.
 - **Detalhes:** Foram incluidos os materiais que serão utilizados no documento materiais.md, assim como a distribuição do proeto com outros colegas que fazem parte do projeto Mais Ciência uma vez que estarei deixando as dependências da escola. 
 - **Próximos passos:** Adicionar os novos desenvolvedores como colaboradores no repositório do github, dar continuidade na montagem do projeto e atualizar o código do arduino para ficar de mais fácil entendimento.
+
+---
+
+### 21/05/2026
+- **Atividade realizada:** Revisão do código e alteração da calibragem aproximada.
+- **Detalhes:** O código foi testado em um ambiente digital de simulação, alguns testes resultaram em falhas, portanto, tive de fazer correções no limite de poluição do ar para que seja detectável pelo sensor. Também cogitei a mudança do modelo do exaustor, já que sua potência pode não ser suficiente para limpar o ar interno de forma eficaz.
+- **Próximos passos:** Montar o protótipo físico e criar hipóteses de designs mais eficientes.
